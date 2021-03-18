@@ -12,15 +12,15 @@
 }
 
 .navbar {
-  background: $strong-color;
+  background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
   padding: 5px 25px;
   .logo {
     font-family: 'Lobster', cursive;
-    color: $light-color;
+    color: $strong-color;
   }
   .links {
     a {
@@ -30,7 +30,7 @@
       font-weight: bold;
       font-family: 'Noto Sans', sans-serif;
       &:hover {
-        color: $mild-color;
+        color: $medium-color;
       }
     }
   }
