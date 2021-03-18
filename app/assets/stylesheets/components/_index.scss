@@ -1,4 +1,10 @@
 // Import your components CSS files here.
+$strong-color: #112D4E;
+$medium-color: #3F72AF;
+$mild-color: #DBE2EF;
+$light-color: #F9F7F7;
+
 @import "alert";
 @import "avatar";
 @import "navbar";
+@import "footer";
