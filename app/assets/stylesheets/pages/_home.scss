@@ -1,1 +1,33 @@
 // Specific CSS for your home-page
+.container {
+  position: relative;
+  height: 85vh;
+}
+
+.home-img {
+  width: 450px;
+  position: absolute;
+  bottom: 60px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,.2);
+  border-radius: 8px;
+}
+
+.home-title {
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  right: 90px;
+  h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    margin: 3px 0;
+  }
+  p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  .arrow {
+    font-size: 30px;
+  }
+}
