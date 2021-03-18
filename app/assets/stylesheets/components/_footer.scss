@@ -1,5 +1,5 @@
 .footer {
-  background: $strong-color;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
         font-weight: lighter;
         font-family: 'Noto Sans', sans-serif;
         &:hover {
-          color: $mild-color;
+          color: $medium-color;
         }
       }
     }

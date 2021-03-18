@@ -1,7 +1,6 @@
 // Specific CSS for your home-page
 .container {
   position: relative;
-  height: 85vh;
 }
 
 .home-img {
@@ -18,9 +17,9 @@
   top: 120px;
   right: 90px;
   h1 {
-    font-family: 'Noto Sans', sans-serif;
     font-size: 40px;
     margin: 3px 0;
+    font-weight: bold;
   }
   p {
     font-family: 'Noto Sans', sans-serif;

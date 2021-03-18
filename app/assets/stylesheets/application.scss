@@ -15,9 +15,18 @@
 
 a {
   text-decoration: none;
-  color: $light-color;
+  color: $strong-color;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+h1, p {
+  font-family: 'Noto Sans', sans-serif;
+  color: $strong-color;
+}
+
+.container {
+  height: 85vh;
 }
